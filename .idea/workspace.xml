@@ -6,10 +6,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/package.json" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398794242627" ignored="false" />
     <file path="/reset.css" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398794806154" ignored="false" />
-    <file path="/index.html" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398847463661" ignored="false" />
+    <file path="/index.html" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398872699945" ignored="false" />
     <file path="C:/ratingWidget/webApp/trunk/htdocs/less/load.less" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398796796404" ignored="false" />
     <file path="/load.less" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398850329812" ignored="false" />
-    <file path="/style.less" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398850556428" ignored="false" />
+    <file path="/style.less" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398872867167" ignored="false" />
     <file path="/vars.less" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398850529307" ignored="false" />
     <file path="D:/jpmc/deploy/TRMEar.ear/web.war/public/framework/javascripts/supremeSearchBar.js" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398867963536" ignored="false" />
     <file path="D:/jpmc/deploy/TRMEar.ear/web.war/public/framework/javascripts/searchBar.js" changelist="60a492c6-5128-4467-ab77-ab3b86be7755" time="1398851737785" ignored="false" />
@@ -101,7 +101,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="628" selection-end="628" vertical-scroll-proportion="-9.807693">
+            <state line="18" column="37" selection-start="765" selection-end="778" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
@@ -110,7 +110,7 @@
       <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/less/styles/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.15578465">
+            <state line="39" column="17" selection-start="562" selection-end="562" vertical-scroll-proportion="0.53264606">
               <folding />
             </state>
           </provider>
@@ -155,7 +155,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+            <state line="7" column="11" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,9 +178,9 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/less/reset.less" />
         <option value="$PROJECT_DIR$/public/less/style.less" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/less/load.less" />
         <option value="$PROJECT_DIR$/public/less/helpers/vars.less" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/less/styles/style.less" />
       </list>
     </option>
@@ -432,7 +432,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -551,20 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/less/helpers/reset.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="1" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.8046324" />
@@ -573,13 +559,6 @@
     <entry file="file://$PROJECT_DIR$/public/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="24" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="0" selection-end="413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -598,9 +577,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="628" selection-end="628" vertical-scroll-proportion="-9.807693">
+        <state line="7" column="11" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="0" selection-end="413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -619,9 +612,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="37" selection-start="765" selection-end="778" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/less/styles/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.15578465">
+        <state line="39" column="17" selection-start="562" selection-end="562" vertical-scroll-proportion="0.53264606">
           <folding />
         </state>
       </provider>
