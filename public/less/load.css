@@ -1,0 +1,237 @@
+/* Load reset file.
+------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Load CSS mixins.
+------------------------------------------------*/
+/*.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}*/
+/*.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}*/
+/*.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: @inputHeight; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+  .box-sizing(border-box); // Makes inputs behave like true block-level elements
+}*/
+/* Load styles.
+------------------------------------------------*/
+/* Load styles.
+------------------------------------------------*/
+/*   HEADER
+--------------------*/
+header {
+  float: left;
+  clear: both;
+  background-color: white;
+  font-family: 'Droid Sans', Helvetica, sans-serif;
+  font-size: 17px;
+  width: 100%;
+}
+header .navbar-nav {
+  position: fixed;
+  width: inherit;
+  height: 50px;
+  background-color: black;
+  opacity: 0.7;
+}
+header .navbar-nav li a {
+  color: white;
+  opacity: 1;
+}
+header .navbar-nav li a:hover {
+  background-color: black !important;
+  -webkit-transition: 700ms;
+  -moz-transition: 700ms;
+  -o-transition: 700ms;
+  transition: 700ms;
+  color: #00b3ee;
+}
+header img {
+  width: inherit;
+  float: left;
+  clear: both;
+}
+header div.panel_rainbow {
+  float: left;
+  width: inherit;
+  height: 10px;
+  position: relative;
+}
+header div.panel_rainbow div {
+  float: left;
+  height: inherit;
+  width: 25%;
+}
+header div.panel_rainbow div:nth-child(1) {
+  background-color: #87ceeb;
+}
+header div.panel_rainbow div:nth-child(2) {
+  background-color: #98fb98;
+}
+header div.panel_rainbow div:nth-child(3) {
+  background-color: #fa8072;
+}
+header div.panel_rainbow div:nth-child(4) {
+  background-color: #b22222;
+}
+header moving-pictures ul.moving_img {
+  float: right;
+  width: inherit;
+  height: 130px;
+  border-bottom: 1px solid black;
+}
+header moving-pictures ul.moving_img li {
+  height: inherit;
+  width: 130px;
+  float: right;
+}
+/*   CONTENT
+--------------------*/
+div#content {
+  height: 500px;
+  background: white;
+}

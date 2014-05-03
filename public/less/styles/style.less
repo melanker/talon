@@ -1,6 +1,15 @@
-body {
+/*   FUNCTION
+--------------------*/
 
+//background image func
+.img-func(@height, @width, @sprite) {
+  height: @height;
+  width:  @width;
+  background-repeat: no-repeat;
+  background-image: url('@{img_folder}/@{sprite}');
 }
+
+
 
 /*   HEADER
 --------------------*/
@@ -23,10 +32,10 @@ header {
       a {
         color: white;
         opacity: 1;
+
         &:hover {
           background-color: black !important;
           .transition(700ms);
-
           color: #00b3ee;
         }
       }
@@ -73,30 +82,89 @@ header {
 
   moving-pictures ul.moving_img {
     float: right;
-    width: inherit;
-    height: 130px;
-    border-bottom: 1px solid black;
+    width: 100%;
+    height: 134px;
+    background-image: url('@{img_folder}/pattern.png');
 
     li {
+      position: relative;
       height: inherit;
-      width: 130px;
+      width: 100px;
       float: right;
 
-      &:nth-child(1) {
-        background-color: #87ceeb;
+
+      i {
+        margin: 16px 0 0 0;
+        display: inline-block;
+        height: 100px;
+        width: 90px;
+        border: 5px solid white;
+        .border-radius(3px);
+        background-repeat: no-repeat;
+        background-image: url('@{img_folder}/moving_images.png');
       }
 
-      &:nth-child(2) {
-        background-color: #98fb98;
+      article {
+        display: none;
+        white-space: nowrap;
+        top: 11px;
+        position: absolute;
+
+        blockquote {
+          quotes: none;
+          font-family: inherit;
+          font-size: 18px;
+          color: #ffffff;
+          font-weight: normal;
+          font-style: italic;
+          margin-left: 120px;
+          line-height: 1.6em;
+        }
+
+        span {
+          top: 100px;
+          margin-left: 120px;
+          font-size: 14px;
+          color: #ffffff;
+        }
       }
 
-      &:nth-child(3) {
-        background-color: #fa8072;
+      &#img1 {
+
+        i {
+          background-position: 0 0;
+
+        }
+      }
+
+      &#img2 {
+        i {
+          background-position: -105px 0;
+        }
+      }
+
+      &#img3 {
+        i {
+          background-position: -215px 0;
+        }
+      }
+
+      &#img4 {
+        i {
+          background-position: -324px 0;
+        }
+      }
+
+      &.active {
+        float: left;
+        left: 0 !important;
+        article {
+          display: block;
+        }
       }
 
 
     }
-
   }
 }
 

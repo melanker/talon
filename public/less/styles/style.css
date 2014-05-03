@@ -1,0 +1,5 @@
+NameError: .transition is undefined in C:\Users\Admin\Documents\GitHub\talon\public\less\styles\style.less on line 28, column 11:
+27           background-color: black !important;
+28           .transition(700ms);
+29 
+
