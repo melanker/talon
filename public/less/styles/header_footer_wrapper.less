@@ -24,7 +24,7 @@ header {
   .navbar-nav {
     position: fixed;
     width: inherit;
-    height: 50px;
+    height: 60px;
     background-color: black;
     opacity: 0.7;
 
@@ -32,11 +32,21 @@ header {
       a {
         color: white;
         opacity: 1;
+        margin: 7px;
 
         &:hover {
           background-color: black !important;
           .transition(700ms);
           color: #00b3ee;
+        }
+      }
+
+      &.navbar-brand {
+        img {
+          height: 40px;
+          width: 40px;
+          background-repeat: no-repeat;
+          content:url('@{img_folder}/logo.png');
         }
       }
     }
@@ -170,8 +180,12 @@ header {
 
 /*   CONTENT
 --------------------*/
-div#content {
-  height: 500px;
-  background: white;
-}
+div {
 
+  &#content {
+    width: 100%;
+    float: left;
+    height: auto;
+    background: white;
+  }
+}
